@@ -31,8 +31,12 @@ body{
 .bg_pink{
   height: 100px;
   margin-top: 20px;
-
 }
+.menu h4{
+  display: inline-block;
+  font-weight: 400;
+}
+
 /* main */
 
 .bg_yellow{

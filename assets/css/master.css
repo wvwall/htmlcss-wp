@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  height: 100vh;
+  background: #fff;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+  margin: 0 15%;
+}
+[class^="col-"]{
+  float: left;
+  padding: 0 ;
+}
+[class^="bg_"]{
+  margin-bottom: 20px;
+}
+.col-100{
+  width: 100%;
+}
+/* header */
+
+.bg_pink{
+  height: 100px;
+  margin-top: 20px;
+
+}
+/* main */
+
+.bg_yellow{
+ background-image: url("../img/banner.jpg");
+ border-radius: 1em;
+ height: 420px;
+ margin-top: 40px;
+ border: 1px solid #F1F1F1;
+}
+.col-25{
+  width: 25%;
+}
+.col-50{
+  width: 50%;
+}
+.bg_lightblue_l{
+margin-right: 10px;
+}
+.bg_lightblue_c{
+margin-left:10px;
+margin-right: 10px;
+}
+.bg_lightblue_r{
+margin-left:10px;
+}
+
+
+/* footer */
+
+.bg_purple{
+  margin-top: 10px;
+}
+ /* bonus */
+ .bg_pink{
+   margin-bottom: 0;
+ }
+ .logo{
+   width: 15%;
+   border-right: 1px solid gray;
+   padding-right: 15px;
+ }
+ .pink a{
+   margin-right:  10px;
+   color: gray;
+ }
+ .banner{
+   width: 100%;
+   border-radius: 1em;
+ }
+ .titolo_rb{
+   font-size: 45px;
+   margin-top: 20px;
+ }
+ .bg_lightblue_t span{
+   color: gray;
+   font-weight: 300;
+   font-size: 20px;
+ }
+ .img-1{
+   width: 100%;
+   border-radius: 1em;
+   border: 1px solid #F1F1F1;
+ }
+ .titolo_l,.titolo_c,.titolo_r{
+   color: #212121;
+   font-size: 20px;
+   margin-bottom: 10px;
+   font-weight: 400;
+   padding-top: 10px;
+ }
+.bg_lightblue_l,.bg_lightblue_c,.bg_lightblue_r span{
+  color: gray;
+}
+.banner-2{
+  width: 100%;
+  border-radius: 1em;
+  border: 1px solid #F1F1F1;
+}
+.img-6{
+  width: 100%;
+  border-radius: 1em;
+  border: 1px solid #F1F1F1;
+}
+.footer{
+  text-align: center;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+.titolo_jumbo{
+  font-weight: 400;
+  font-size: 32px;
+}
+.titolino{
+  font-weight: 400;
+  font-size: 18px;
+}
+.jumbo{
+  padding-left: 50px;
+  padding-top: 255px;
+   color: #fff;
+  width: 64%;
+}
+ .foot{
+   color: black;
+ }
